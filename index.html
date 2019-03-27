@@ -10,15 +10,43 @@
       margin:0;
       border: 2px solid blue;
     }
+
     img
     {
       max-width: 100%;
       vertical-align: top;
     }
+    img#tienda
+    {
+      display:none;
+    }
+    img#blog
+    {
+      display:none;
+    }
+
+    @media screen and (max-width: 768px)
+    {
+      img#tienda
+      {
+        display:block;
+      }
+      img#blog
+      {
+        display:block;
+      }
+      img
+      {
+        display:none;
+      }
+    }
+
   </style>
   <body>
     <h1>HOLo</h1>
     <img src="DOMINIOP.jpg" alt="">
     <img src="NUEVOLOGOJD2.png" alt="">
+    <img src="tiendavirtual.jpg" alt="" id="tienda">
+    <img src="blogsmosaico.jpg" alt="" id="blog">
   </body>
 </html>
