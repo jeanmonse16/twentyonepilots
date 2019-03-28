@@ -16,6 +16,7 @@
       max-width: 100%;
       vertical-align: top;
     }
+
     img#tienda
     {
       display:none;
@@ -23,6 +24,10 @@
     img#blog
     {
       display:none;
+    }
+    h2
+    {
+      display:none
     }
 
     @media screen and (max-width: 768px)
@@ -39,13 +44,17 @@
       {
         display:none;
       }
+      h2
+      {
+        display: block;
+      }
     }
 
   </style>
   <body>
     <h1>HOLA</h1>
+    <h2>Esta es la version responsive</h2>
     <img src="DOMINIOP.jpg" alt="">
-    <img src="NUEVOLOGOJD2.png" alt="">
     <img src="tiendavirtual.jpg" alt="" id="tienda">
     <img src="blogsmosaico.jpg" alt="" id="blog">
   </body>
